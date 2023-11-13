@@ -45,8 +45,8 @@ function Cargar() {
 
     for(let pista of this.pistas){
       html += `
-      <li>Nombre:${this.nombre}</li>
-      <li>Duracion:${this.duracion} s</li>
+      <li>Nombre:${pista.nombre}</li>
+      <li>Duracion:${pista.duracion} s</li>
       </br>
       `
     }
